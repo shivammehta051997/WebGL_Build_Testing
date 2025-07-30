@@ -1,0 +1,358 @@
+{
+  "shared": {
+    "values": [
+      {
+        "id": "app1Title",
+        "text": [
+          "ELSA Patterns and Relationships"
+        ]
+      },
+      {
+        "id": "app2Title",
+        "text": [
+          "ELSA Locations and Arrangements"
+        ]
+      },
+      {
+        "id": "paringTitle",
+        "text": [
+          "Connect this app"
+        ]
+      },
+      {
+        "id": "paringDescription",
+        "text": [
+          "Please connect this app with the ELSA <b>Educator app</b>"
+        ]
+      },
+      {
+        "id": "paringStep",
+        "text": [
+          "To get started, open the ELSA <b>Educator app</b>",
+          "Tap on ‘Support’ in the main menu of the <b>Educator app</b>",
+          "Select ‘Connect to Children’s Apps’ ",
+          "You’ll be presented with a code containing 6 letters and numbers",
+          "Enter the code into the spaces below"
+        ]
+      },
+      {
+        "id": "pairingCompleteTitle",
+        "text": [
+          "Success!"
+        ]
+      },
+      {
+        "id": "pairingCompleteDescription",
+        "text": [
+          "The {0} app is connected to the <b>Educator app</b>. \r\nYou can now add classes and children to the <b>Educator app</b> in the ‘Children’ tab. You will need to do this before children start using the app."
+        ]
+      },
+      {
+        "id": "offlineErrorTitle",
+        "text": [
+          "Not online"
+        ]
+      },
+      {
+        "id": "offlineErrorDescription",
+        "text": [
+          "For the best experience, please check settings for an internet connection"
+        ]
+      },
+      {
+        "id": "pairingErrorTitle",
+        "text": [
+          "Pairing failed"
+        ]
+      },
+      {
+        "id": "pairingErrorDescription",
+        "text": [
+          "Please check the code and try again."
+        ]
+      },
+      {
+        "id": "pairingCodeLengthErrorDescription",
+        "text": [
+          "Enter the connect code containing 6 letters and numbers"
+        ]
+      },
+      {
+        "id": "selectPlayerGroupTitle",
+        "text": [
+          "Select class"
+        ]
+      },
+      {
+        "id": "selectPlayerGroupDescription",
+        "text": [
+          "Select a children's class to review children setup to play ELSA."
+        ]
+      },
+      {
+        "id": "generalErrorTitle",
+        "text": [
+          "Loading data failed"
+        ]
+      },
+      {
+        "id": "generalErrorDescription",
+        "text": [
+          "Check your internet connection and try again"
+        ]
+      },
+      {
+        "id": "logoutConfirmTitle",
+        "text": [
+          "Are you sure?"
+        ]
+      },
+      {
+        "id": "logoutConfirmDescription",
+        "text": [
+          "This will log you out of the educators account requiring use of the connect code."
+        ]
+      },
+      {
+        "id": "reviewPlayersTitle",
+        "text": [
+          "Children in this class"
+        ]
+      },
+      {
+        "id": "reviewPlayersDescription",
+        "text": [
+          "These are the children in this class that can play ELSA.\r\nSelect a child's profile picture to edit their details."
+        ]
+      },
+      {
+        "id": "supportTitle",
+        "text": [
+          "ELSA Support"
+        ]
+      },
+      {
+        "id": "supportInfo",
+        "text": [
+          "Ask our support team at ELSA. We are ready to assist you with any STEM questions.\nCall 1800 931 042 or email team@elsa.edu.au\r\n\r\nIf you would like to post a question to us click on the button below."
+        ]
+      },
+      {
+        "id": "app1GrantPermissionCameraTitle",
+        "text": [
+          "Children learn by collecting"
+        ]
+      },
+      {
+        "id": "app1GrantPermissionCameraDescription",
+        "text": [
+          "Children can take photos of things around them to create unique patterns using content from their world."
+        ]
+      },
+      {
+        "id": "app1GrantPermissionMicrophoneTitle",
+        "text": [
+          "Children learn by describing"
+        ]
+      },
+      {
+        "id": "app1GrantPermissionMicrophoneDescription",
+        "text": [
+          "Children can record their voice to describe patterns, sorting and other content they create."
+        ]
+      },
+      {
+        "id": "app1GrantPermissionCameraRollTitle",
+        "text": [
+          "Educators and children create stories"
+        ]
+      },
+      {
+        "id": "app1GrantPermissionCameraRollDescription",
+        "text": [
+          "Children and educators work together to create stories and narrate them with photos from the Camera Roll."
+        ]
+      },
+      {
+        "id": "app2GrantPermissionCameraTitle",
+        "text": [
+          "Children learn by experiencing in their world"
+        ]
+      },
+      {
+        "id": "app2GrantPermissionCameraDescription",
+        "text": [
+          "Children can explore the world around them using AR to experience spatial language in the Adventure Activity."
+        ]
+      },
+      {
+        "id": "app2GrantPermissionMicrophoneTitle",
+        "text": [
+          "Children learn by describing"
+        ]
+      },
+      {
+        "id": "app2GrantPermissionMicrophoneDescription",
+        "text": [
+          "Children can record their voice to describe spatial language within the Mapping Activity."
+        ]
+      },
+      {
+        "id": "app2GrantPermissionCameraRollTitle",
+        "text": [
+          "Educators and children create stories"
+        ]
+      },
+      {
+        "id": "app2GrantPermissionCameraRollDescription",
+        "text": [
+          "Children and educators can take photos of their experiences saving photos locally to the Camera Roll within the Adventure Activity."
+        ]
+      },
+      {
+        "id": "confirmUsePhotoTitle",
+        "text": [
+          "Use this photo?"
+        ]
+      },
+      {
+        "id": "confirmUsePhotoDescription",
+        "text": [
+          "Would you like to use this photo to represent this child in ELSA?"
+        ]
+      },
+      {
+        "id": "confirmUseSymbolTitle",
+        "text": [
+          "Use this symbol?"
+        ]
+      },
+      {
+        "id": "confirmUseSymbolDescription",
+        "text": [
+          "Would you like to use this symbol to represent this child in ELSA?"
+        ]
+      },
+      {
+        "id": "deviceUsageDescriptionCamera",
+        "text": [
+          "Used for capturing images for educational use"
+        ]
+      },
+      {
+        "id": "deviceUsageDescriptionMicrophone",
+        "text": [
+          "Used for capturing audio for educational use"
+        ]
+      },
+      {
+        "id": "selectedPlayerGroupMissingTitle",
+        "text": [
+          "Selected class is missing"
+        ]
+      },
+      {
+        "id": "selectedPlayerGroupMissingDescription",
+        "text": [
+          "This class has been removed from the <b>Educator app</b>. To create a new class for children. Open the <b>Educator app</b>. Then tap on <b>'Children'</b>, add your classes and children's details.\r\n\r\nWhen you are ready, select another class for children to play ELSA."
+        ]
+      },
+      {
+        "id": "noPlayerGroupsAddedTitle",
+        "text": [
+          "No classes added"
+        ]
+      },
+      {
+        "id": "noPlayerGroupsAddedDescription",
+        "text": [
+          "Make sure to add classes and children to ELSA within the  <b>Educator app</b>. Open the <b>Educator app</b>. Then tap on <b>'Children'</b>, add your classes and children's details.\r\n\r\nWhen you are ready, press retry to see your classes."
+        ]
+      },
+      {
+        "id": "noPlayersAddedToGroupTitle",
+        "text": [
+          "No children have been added to class"
+        ]
+      },
+      {
+        "id": "noPlayersAddedToGroupDescription",
+        "text": [
+          "Please add children to this class for ELSA within the <b>Educator app</b>. Tap on <b>'Children'</b> in the menu to add your classes and children's details.\r\n\r\nWhen you are ready, press retry to see your classes."
+        ]
+      },
+      {
+        "id": "noPermissionsToUsePhotosInfo",
+        "text": [
+          "Do not use photos of this child, permission has not been granted."
+        ]
+      },
+      {
+        "id": "appWelcomeTitle",
+        "text": [
+          "{0}"
+        ]
+      },
+      {
+        "id": "appWelcomeDescription",
+        "text": [
+          "Before you can start using this app with your class, you will need to download the ELSA <b>Educator app</b> and register."
+        ]
+      },
+      {
+        "id": "appWelcomeGetStartedDescription",
+        "text": [
+          "Download it here"
+        ]
+      },
+      {
+        "id": "appWelcomeConfirmDescription",
+        "text": [
+          "I have already downloaded the <b>Educator app</b> and registered"
+        ]
+      },
+      {
+        "id": "addChildrenInfoDescription",
+        "text": [
+          "Want to add new students? Please go to the <b>Educator app</b> and select <b>'Children'</b> from the main menu."
+        ]
+      },
+      {
+        "id": "appInfoTitle",
+        "text": [
+          "Who can use this app?"
+        ]
+      },
+      {
+        "id": "appInfoDescription",
+        "text": [
+          "This app was created by Early Learning STEM Australia (ELSA). It is currently only available to ELSA Program participants in preschool services and Foundation-year classes in Australia who have a paid subscription.\n\nTo register for the ELSA Program, visit the <u><link=SITE_URL>SPLAT-maths website</link></u>."
+        ]
+      },
+      {
+        "id": "appInfoConfirmReadyDescription",
+        "text": [
+          "I'm an ELSA Program participant"
+        ]
+      },
+      {
+        "id": "permissionsRejectedTitle",
+        "text": [
+          "Permissions Rejected"
+        ]
+      },
+      {
+        "id": "adventureCameraRollPermissionRejectedMessage",
+        "text": [
+          "To enable camera roll usage in this activity, go to the app settings to grant permissions"
+        ]
+      },
+      {
+        "id": "adventureCameraPermissionRejectedMessage",
+        "text": [
+          "To enable camera usage in this activity go to the app settings to grant permissions"
+        ]
+      }
+    ]
+  }
+}
