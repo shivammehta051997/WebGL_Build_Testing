@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | ELSA Patterns</title>
+    <title>Unity WebGL Player | ELSA Locations</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1280 height=720></canvas>
+      <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">ELSA Patterns</div>
+        <div id="unity-build-title">ELSA Locations</div>
       </div>
     </div>
     <script>
@@ -58,15 +58,15 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/2df8cd80f044352f223ba981e884093a.js";
       var config = {
-        dataUrl: buildUrl + "/b28ae13b8750c3c3e858010b0b80c334.data.unityweb",
-        frameworkUrl: buildUrl + "/73b9951bc6b4ed87b475c911f6c89513.js.unityweb",
-        codeUrl: buildUrl + "/0c5d8c42abff335402cb32b943c517d6.js.unityweb",
-        memoryUrl: buildUrl + "/a8005b5e09d3f39183612ab9c0fa5de7.mem.unityweb",
-        symbolsUrl: buildUrl + "/71ff9c828e0cc5a768aa006bc72f15b8.json.unityweb",
+        dataUrl: buildUrl + "/334d5d095cc70336eb042bbca1c8861f.data.unityweb",
+        frameworkUrl: buildUrl + "/a095568084b731e10ba0239333f774e1.js.unityweb",
+        codeUrl: buildUrl + "/b06762ba25857445fccf9f001b83a345.js.unityweb",
+        memoryUrl: buildUrl + "/d1814a71318534b896f023cfc4aebaa5.mem.unityweb",
+        symbolsUrl: buildUrl + "/8755baf51c038ebb31b3f307b15e5b74.json.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Mode Games Pty Ltd",
-        productName: "ELSA Patterns",
-        productVersion: "1.6.0",
+        productName: "ELSA Locations",
+        productVersion: "1.6.1",
         showBanner: unityShowBanner,
       };
 
@@ -84,8 +84,8 @@
         config.devicePixelRatio = 1;
         unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
-        canvas.style.width = "1280px";
-        canvas.style.height = "720px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
       loadingBar.style.display = "block";
 
